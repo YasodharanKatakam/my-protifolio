@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>PORTFOLIO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: Century Gothic;
+    }
+
+    header {
+      height: 100vh;
+      width: auto;
+      background-size: cover;
+      background-color: #030000;
+    }
+
+    ul {
+      float: right;
+      list-style-type: none;
+      margin: 25px;
+    }
+
+    ul li {
+      display: inline-block;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: #fff;
+      padding: 5px 20px;
+      border: 1px solid transparent;
+      transition: 0.7s ease;
+    }
+
+    ul li a:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    ul li.active a {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .logo img {
+      float: left;
+      width: 100px;
+      height: auto;
+      padding-left: 14px;
+      padding-top: 15px;
+    }
+
+    .main {
+      max-width: 5000px;
+    }
+
+    .title {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .title h1 {
+      color: WHITE;
+      font-size: 70px;
+      font-family: 'Lobster', cursive;
+      font-stretch: expanded;
+      float: center;
+    }
+
+    .title h4 {
+      color: white;
+      font-size: 20px;
+      font-style: italic;
+      padding-left: 300px;
+    }
+
+    .button {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+
+   p .copyright {
+      position: absolute;
+      width: 100%;
+      color: #fff;
+      font-size: 1em;
+      text-align: center;
+      bottom: 0;
+      padding-left: 100px;
+
+    }
+
+    .btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .navbar {
+      text-align: center;
+      background-color: black;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+
+    .social-footer {
+      padding: auto;
+      background: black;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+
+    .social-footer .social-footer-icons li:last-of-type {
+      margin-right: 0;
+    }
+
+    .social-footer .social-footer-icons .fa {
+      font-size: 20px;
+      color: #fefefe;
+    }
+
+    .social-footer .social-footer-icons .fa:hover {
+      color: #4a4a4a;
+      transition: color 0.3s ease-in;
+    }
+
+    .resume {
+      padding: 10px;
+      text-align: center;
+      border: 2px solid black;
+      color: white;
+      font-weight: bold;
+      line-height: 25px;
+      text-decoration: none;
+    }
+
+    .resume:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    @media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+  </style>
+
+
+</head>
+
+<body>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <nav class="navbar">
+    <div class="main">
+
+      <div class="logo">
+        <img src="logo.png" alt="logo">
+      </div>
+      <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="certifications.html">certifications</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <div class="title">
+      <h1>Yasodharan Katakam</h1><br>
+      <h4> -WEB DEVELOPER</h4><br><br><br><br><br>
+      <a href="./resume.pdf" class="resume" open>Download Resume</a>
+    </div>
+  </header>
+
+ 
+
+  <footer class="social-footer">
+
+    <div class="social-footer-icons">
+      <ul class="menu simple">
+        <li style="padding-left: 460px;"><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/?lang=en"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li><br><br>
+        <li style="text-align: center;padding-left: 250px;"><a class="copyright">Copyright &copy;All rights reserved|Developed by yasodharan katakam.</a></li>
+      </ul>
+    </div>
+
+    
+
+    <br>
+  </footer>
+
+
+</body>
+
+</html>
